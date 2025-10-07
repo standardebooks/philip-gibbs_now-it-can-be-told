@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/philip-gibbs/now-it-can-be-told</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2025-10-07T18:13:48Z</dc:date>
+		<meta property="dcterms:modified">2025-10-07T18:13:48Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -40,14 +40,14 @@
 		<meta property="se:subject">Nonfiction</meta>
 		<dc:description id="description">A British war correspondent recalls his experiences during the Great War.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;At the outbreak of war in 1914, newspaper reporter &lt;a href="https://standardebooks.org/ebooks/philip-gibbs"&gt;Philip Gibbs&lt;/a&gt; set out to Belgium to report on the Germain invasion and the resulting mass Allied retreat. In the midst of these catastrophes in the early days of fighting, British high command was loathe to allow any reporting outside army communiqués, and only after a public outcry for information was Gibbs made into one of only five official British war correspondents. He would accompany the British army through all their fighting on the Western Front, including the Battles of Ypres, the Somme, and Flanders, up till their eventual victory in 1918.&lt;/p&gt;
-			&lt;p&gt;As a war correspondent, Gibbs had the fairly unique position of being able to interact with both the soldiers in the trenches and the generals in high command. In return for this privileged access, all of the correspondents’ original reports were subject to strict censorship, and Gibbs chafed constantly under the censor’s pen. Published in 1920 after the war, this book contains his unvarnished accounts of the brutality of modern trench warefare and the British General Headquarters who struggled to adapt to it.&lt;/p&gt;
+			&lt;p&gt;At the outbreak of war in 1914, newspaper reporter &lt;a href="https://standardebooks.org/ebooks/philip-gibbs"&gt;Philip Gibbs&lt;/a&gt; left for Belgium to report on the German invasion and the resulting mass Allied retreat. In the midst of these catastrophes in the early days of fighting, British high command was loathe to allow any reporting outside army communiqués, and only after a public outcry for information was Gibbs made into one of only five official British war correspondents. He would accompany the British army through all their fighting on the Western Front, including the Battles of Ypres, the Somme, and Flanders, up till their eventual victory in 1918.&lt;/p&gt;
+			&lt;p&gt;As a war correspondent, Gibbs had the fairly unique position of being able to interact with both the soldiers in the trenches and the generals in high command. In return for this privileged access, all of the correspondents’ original reports were subject to strict censorship, and Gibbs chafed constantly under the censor’s pen. Published in 1920 after the war, this book contains his unvarnished accounts of the brutality of modern trench warfare and the British General Headquarters who struggled to adapt to it.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3317</dc:source>
 		<dc:source>https://archive.org/details/nowitcanbetold00gibbuoft</dc:source>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">185595</meta>
+		<meta property="se:reading-ease.flesch">66.67</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/philip-gibbs_now-it-can-be-told</meta>
 		<dc:creator id="author">Philip Gibbs</dc:creator>
 		<meta property="file-as" refines="#author">Gibbs, Philip</meta>
@@ -77,6 +77,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://weijiarhymeswith.asia/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="css/core.css" id="core.css" media-type="text/css"/>
