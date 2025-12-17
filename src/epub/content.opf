@@ -46,7 +46,7 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3317</dc:source>
 		<dc:source>https://archive.org/details/nowitcanbetold00gibbuoft</dc:source>
-		<meta property="se:word-count">185595</meta>
+		<meta property="se:word-count">185594</meta>
 		<meta property="se:reading-ease.flesch">66.67</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/philip-gibbs_now-it-can-be-told</meta>
 		<dc:creator id="author">Philip Gibbs</dc:creator>
