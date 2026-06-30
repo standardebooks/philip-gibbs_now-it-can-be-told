@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/philip-gibbs/now-it-can-be-told</dc:identifier>
 		<dc:date>2025-10-07T18:13:48Z</dc:date>
 		<meta property="dcterms:modified">2025-10-07T18:13:48Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -36,8 +37,8 @@
 		<meta property="term" refines="#subject-1">sh85148236</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh85148272</meta>
-		<meta property="se:subject">Memoir</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="schema:genre">Memoir</meta>
+		<meta property="schema:genre">Nonfiction</meta>
 		<dc:description id="description">A British war correspondent recalls his experiences during the Great War.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;At the outbreak of war in 1914, newspaper reporter &lt;a href="https://standardebooks.org/ebooks/philip-gibbs"&gt;Philip Gibbs&lt;/a&gt; left for Belgium to report on the German invasion and the resulting mass Allied retreat. In the midst of these catastrophes in the early days of fighting, British high command was loath to allow any reporting outside army communiqués, and only after a public outcry for information was Gibbs made into one of only five official British war correspondents. He would accompany the British army through all their fighting on the Western Front, including the Battles of Ypres, the Somme, and Flanders, up till their eventual victory in 1918.&lt;/p&gt;
@@ -46,31 +47,33 @@
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3317</dc:source>
 		<dc:source>https://archive.org/details/nowitcanbetold00gibbuoft</dc:source>
-		<meta property="se:word-count">184501</meta>
-		<meta property="se:reading-ease.flesch">66.67</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/philip-gibbs_now-it-can-be-told</meta>
+		<meta property="schema:wordCount">184501</meta>
+		<meta property="schema:educationalLevel">66.67</meta>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/philip-gibbs_now-it-can-be-told" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Philip Gibbs</dc:creator>
 		<meta property="file-as" refines="#author">Gibbs, Philip</meta>
-		<meta property="se:name.person.full-name" refines="#author">Sir Philip Armand Thomas Hamilton Gibbs</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Philip_Gibbs</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n85232177</meta>
+		<meta property="schema:alternateName" refines="#author">Sir Philip Armand Thomas Hamilton Gibbs</meta>
+		<link href="https://en.wikipedia.org/wiki/Philip_Gibbs" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n85232177.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="artist">Christopher Richard Wynne Nevinson</dc:contributor>
 		<meta property="file-as" refines="#artist">Nevinson, Christopher Richard Wynne</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/C._R._W._Nevinson</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n86139912</meta>
+		<link href="https://en.wikipedia.org/wiki/C._R._W._Nevinson" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n86139912.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Alan Earls</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Earls, Alan</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">David Widger</dc:contributor>
 		<meta property="file-as" refines="#transcriber-2">Widger, David</meta>
-		<meta property="se:url.authority.nacoaf" refines="#transcriber-2">http://id.loc.gov/authorities/names/no2011017869</meta>
+		<link href="https://id.loc.gov/authorities/names/no2011017869.html" refines="#transcriber-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">Jacob Garber</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Garber, Jacob</meta>
-		<meta property="se:url.homepage" refines="#producer-1">https://www.jwgarber.ca/</meta>
+		<link href="https://www.jwgarber.ca/" refines="#producer-1" rel="schema:url"/>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -79,7 +82,7 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">Weijia Cheng</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Cheng, Weijia</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://weijiarhymeswith.asia/</meta>
+		<link href="https://weijiarhymeswith.asia/" refines="#producer-2" rel="schema:url"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
