@@ -59,8 +59,9 @@
 		<link href="https://id.loc.gov/authorities/names/n85232177.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">wpr</meta>
-		<dc:contributor id="artist">Christopher Richard Wynne Nevinson</dc:contributor>
-		<meta property="file-as" refines="#artist">Nevinson, Christopher Richard Wynne</meta>
+		<dc:contributor id="artist">C. R. W. Nevinson</dc:contributor>
+		<meta property="file-as" refines="#artist">Nevinson, C. R. W.</meta>
+		<meta property="schema:alternateName" refines="#artist">Christopher Richard Wynne Nevinson</meta>
 		<link href="https://en.wikipedia.org/wiki/C._R._W._Nevinson" refines="#artist" rel="schema:sameAs"/>
 		<link href="https://id.loc.gov/authorities/names/n86139912.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
